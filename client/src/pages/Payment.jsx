@@ -103,7 +103,7 @@ function RazorPay() {
           },
           prefill: {
             name: "GYM Bro",
-            email: "nayanph1@gmail.com",
+            email: "bhupendra@gmail.com",
             contact: "9481574558",
           },
         };

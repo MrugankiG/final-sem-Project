@@ -1,5 +1,5 @@
 // import wave from "../assets/wave.png";
-import banner from "../assets/img1.png";
+import banner from "../Assets/img1.png";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import {
@@ -19,11 +19,9 @@ import {
   Spacer,
   HStack,
 } from "@chakra-ui/react";
-import { useEffect } from "react";
 
 import { RiDeleteBinLine } from "react-icons/ri"
 
-import { ACTION_GET_PRODUCTS } from "../../../redux/products/product.actions";
 import { ACTION_ADD_PRODUCT, ACTION_DELETE_PRODUCT } from "../../../redux/admin/admin.actions";
 // import axios from "axios";
 // const getData = async () => {
@@ -39,13 +37,7 @@ const ProductPage = () => {
   const toast = useToast()
 
   const { userData, isAuth, AdminIsAuth } = useSelector((store) => store.auth);
-  //console.log(product.data, "from selector");
-
-  //useEffect(() => {
-  // 
-  //}, [dispatch]);
-
-
+  
   const DeleteProduct = (id)=>{
     dispatch(ACTION_DELETE_PRODUCT(id))
     .then((res)=> {

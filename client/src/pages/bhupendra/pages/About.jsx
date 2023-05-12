@@ -11,47 +11,29 @@ import {
 import Card from '../components/Card';
 
 
-
-import ProfileCard from '../components/ProfileCard';
 let first=[{
-  image:"https://i.ibb.co/9tT8KtB/sufi-black.png",
-  desc:"Problem Solver",
-  title:"suFiyan Shaikh",
-  portfolio:"https://sufi.vercel.app/",
-  github:"https://github.com/suFi7867",
-  linkedin:"https://www.linkedin.com/in/sufiyan-shaikh-9bb808183/"
+  image:"https://media.licdn.com/dms/image/D4D03AQGYf0px6j_L7Q/profile-displayphoto-shrink_800_800/0/1664741436592?e=1689206400&v=beta&t=_MEx1Y3V34LANqjkijHXCoazkzizV4qMD3ioXj2h9Js",
+  desc:"Full Stack Developer",
+  title:"Bhupendra",
+  portfolio:"https://github.com/Bhupendra2414",
+  github:"https://github.com/Bhupendra2414",
+  linkedin:"https://www.linkedin.com/in/bhupendra-singh-sis0diya/"
 },
 {
-  linkedin:"https://www.linkedin.com/in/nayan-kumar-/",
-  github:"https://github.com/NAYANKUMAR21",
-  title:"Nayan Kumar",
+  linkedin:"https://www.linkedin.com/in/bhupendra-singh-sis0diya/",
+  github:"https://github.com/Bhupendra2414",
+  title:"Bhavini",
   desc:"Backend Expert",
-  portfolio:"https://nayankumar21.github.io/",
-  image:"https://avatars.githubusercontent.com/u/99751552?v=4"   
+  portfolio:"https://github.com/Bhupendra2414",
+  image:"https://media.licdn.com/dms/image/D4D35AQFSFj5gBiLkDg/profile-framedphoto-shrink_800_800/0/1663191416511?e=1684256400&v=beta&t=xl4KViF6gg0HzkKYvMPeu4cLQwZt_SuUSXI3Wqh47OE"   
 },
   {
-    image:"https://i.ibb.co/52YF6Sg/green-Monu.png",
+    image:"https://media.licdn.com/dms/image/D4D35AQFSFj5gBiLkDg/profile-framedphoto-shrink_800_800/0/1663191416511?e=1684256400&v=beta&t=xl4KViF6gg0HzkKYvMPeu4cLQwZt_SuUSXI3Wqh47OE",
     desc:"UI Expert",
-    title:"Monu Yadav",
-    portfolio:"https://monumarquis.github.io/",
-    github:"https://github.com/monumarquis",
-    linkedin:"https://www.linkedin.com/in/monu-yadav-2003m/"
-  },
-  {
-    image:"https://avatars.githubusercontent.com/u/107467585?v=4",
-    desc:"Team PLayer",
-    title:"Sudarshan P",
-    portfolio:"https://sudarshan441.github.io/",
-    github:"https://github.com/sudarshan441",
-    linkedin:"https://www.linkedin.com/in/sudarshan-pujari/"
-  },
-  {
-    image:"https://avatars.githubusercontent.com/u/105938098?v=4",
-    title:"Krishna Aluri",
-    desc:"Full Stack",
-    portfolio:"https://641krishna.github.io/",
-    github:"https://github.com/641krishna",
-    linkedin:"https://www.linkedin.com/feed/"
+    title:"Mruganki",
+    portfolio:"https://github.com/Bhupendra2414",
+    github:"https://github.com/Bhupendra2414",
+    linkedin:"https://www.linkedin.com/in/mruganki-gupta-00aaa91b4/"
   },
 
 ]

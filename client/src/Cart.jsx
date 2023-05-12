@@ -17,10 +17,10 @@ import {
   import * as React from "react";
   import { useDispatch, useSelector } from "react-redux";
   import { useNavigate } from "react-router-dom";
-  import { CartItem } from "./pages/sudarshan/pages/CartComponents/CartItem"
-  import { CartOrderSummary } from "./pages/sudarshan/pages/CartComponents/CartOrderSummary"
-  import { cartData } from "./pages/sudarshan/pages/CartComponents/_data"
-import CartCard from "./pages/sufiyan/pages/nestedPages/Card";
+  import { CartItem } from "./pages/mruganki/pages/CartComponents/CartItem"
+  import { CartOrderSummary } from "./pages/mruganki/pages/CartComponents/CartOrderSummary"
+  import { cartData } from "./pages/mruganki/pages/CartComponents/_data"
+import CartCard from "./pages/bhavini/pages/nestedPages/Card";
   
   const Cart = () => { 
     const {userData, token, isAuth } = useSelector((store) => store.auth);

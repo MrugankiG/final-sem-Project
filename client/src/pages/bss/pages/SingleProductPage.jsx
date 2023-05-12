@@ -5,14 +5,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 import { getUserData } from "../../../redux/auth/auth.actions";
 import { ACTION_ADD_ITEM_TO_CART, ACTION_ADD_ITEM_TO_WISHLIST, ACTION_GET_CART } from "../../../redux/cart/cart.actions";
-import { ACTION_GET_PRODUCTS } from "../../../redux/products/product.actions";
 import Loading from "../../Loading";
 
 import { AiOutlineHeart } from "react-icons/ai"
-
-//bgGradient="linear-gradient(180deg, rgba(0,0,0,1) 20%, rgba(64,64,64,1) 93%)"
-// backgroundColor="#312e2e"
-//bg="#f36100"
 
 const SingleProductPage = () => {
   
@@ -47,10 +42,7 @@ const SingleProductPage = () => {
       setSingle(res)
       setLoading(false)
      })
-    
-    //  setSingle(X.data)
-    //  console.log(X.data)
-    //  setLoading(false)
+     
     }catch(e){
       setLoading(true)
     }

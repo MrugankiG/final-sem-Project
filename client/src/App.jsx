@@ -1,8 +1,8 @@
 import logo from './logo.png';
 import './App.css';
-import Navbar from './pages/sufiyan/pages/Navbar';
+import Navbar from './pages/bhavini/pages/Navbar';
 import AllRoutes from './routes/AllRoutes';
-import Footer from './pages/sufiyan/pages/Footer';
+import Footer from './pages/bhavini/pages/Footer';
 import { Box, Image, VStack } from '@chakra-ui/react';
 import  { useState, useEffect, React } from 'react';
 

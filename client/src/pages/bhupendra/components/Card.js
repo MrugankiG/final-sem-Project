@@ -10,7 +10,7 @@ const Card = ({image,title,portfolio,linkedin,github,desc}) => {
   return (<Box className="papa">
    <Box className="our_profile_card">
       <Box className="imgbx">
-        <Image src={image} alt="Monu" pos={"absolute"} top="0" left="0" width={"100%"} height="100%" objectFit={"cover"} />
+        <Image src={image} alt="Bhupendra" pos={"absolute"} top="0" left="0" width={"100%"} height="100%" objectFit={"cover"} />
       </Box>
       <Box className="Our_content">
           <Box className="Our_details">

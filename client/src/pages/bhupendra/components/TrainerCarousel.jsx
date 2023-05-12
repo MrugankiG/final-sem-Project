@@ -59,7 +59,7 @@ return (
         <Slider {...settings}>
           <div>
             <div className="lisa">
-              <img src={Trainer1} alt='monu'/>
+              <img src={Trainer1} alt='bhupendra'/>
               <Box className="overlay2" >
                  <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]}>Nick Fury</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -76,7 +76,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer2} alt='monu'/>
+              <img src={Trainer2} alt='bhupendra'/>
               <Box className="overlay2">
               <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]}>Athart Rachel</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -93,7 +93,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer3} alt='monu'/>
+              <img src={Trainer3} alt='bhupendra'/>
               <Box className="overlay2" >
               <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]} >Nazmin Shaikh</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -110,7 +110,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer4} alt='monu'/>
+              <img src={Trainer4} alt='bhupendra'/>
               <Box className="overlay2" >
               <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]}>Stephanie MicMahon</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -127,7 +127,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer7} alt='monu'/>
+              <img src={Trainer7} alt='bhupendra'/>
               <Box className="overlay2" >
               <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]}>Madara Uchiho</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -144,7 +144,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer5} alt='monu'/>
+              <img src={Trainer5} alt='bhupendra'/>
               <Box className="overlay2" >
                   <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]}>Lana Rhoades</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -162,9 +162,9 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer6} alt='monu'/>
+              <img src={Trainer6} alt='bhupendra'/>
               <Box className="overlay2" >
-                  <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]}>Monu Marquis</Heading>
+                  <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]}>bhupendra Singh</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
               </Box>
               <Box className="social">
@@ -180,7 +180,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer10} alt='monu'/>
+              <img src={Trainer10} alt='bhupendra'/>
               <Box className="overlay2" >
                   <Heading color="#fff" mb="-4"fontSize={["19","19","20","20","25"]} >Eva Elfie</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -198,7 +198,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer9} alt='monu'/>
+              <img src={Trainer9} alt='bhupendra'/>
               <Box className="overlay2" >
                   <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]} >Snoop Dog</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -216,7 +216,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer11} alt='monu'/>
+              <img src={Trainer11} alt='bhupendra'/>
               <Box className="overlay2" >
                   <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]} >Charlotte Flair</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
@@ -234,7 +234,7 @@ return (
           </div>
           <div>
             <div className="lisa">
-              <img src={Trainer8} alt='monu'/>
+              <img src={Trainer8} alt='bhupendra'/>
               <Box className="overlay2" >
                   <Heading color="#fff" mb="-4" fontSize={["19","19","20","20","25"]} >Wakanda Forever</Heading>
                  <Text color="#666" fontWeight={"500"}>GYM TRAINER</Text>
