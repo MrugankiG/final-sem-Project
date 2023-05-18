@@ -16,7 +16,6 @@ import {
 } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";
 import { ACTION_ADD_PRODUCT } from "../../../../redux/admin/admin.actions";
-//import { ACTION_ADD_PRODUCT } from "../../redux/admin/admin.actions";
 
 const AddProduct = () => {
   const [resize, setResize] = React.useState("horizontal");
@@ -80,10 +79,7 @@ const AddProduct = () => {
           </VStack>
           <RadioGroup color="white" colorScheme='orange'  value={value} onChange={setvalue}>
             <HStack spacing="24px" align="left">
-            <Radio value="products">Products</Radio>
-            
-              <Radio value="plans">Plans</Radio>
-           
+            <Radio value="products">Products</Radio>           
             </HStack>
 
             <Spacer />

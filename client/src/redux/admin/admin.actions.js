@@ -62,6 +62,7 @@ console.log(payload)
 export const ACTION_ADD_PRODUCT =
   (payload = {}) =>
   async (dispatch) => {
+    console.log("product daalo guys!",payload);
     dispatch({ type: ADD_PRODUCT_LOADING });
     console.log(payload.area);
     try {

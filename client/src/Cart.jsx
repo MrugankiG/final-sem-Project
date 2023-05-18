@@ -30,7 +30,7 @@ import CartCard from "./pages/bhavini/pages/nestedPages/Card";
    const navigate = useNavigate();
   
    const BackToPRoductPage = () => {
-    navigate("/product")
+    navigate("/products")
    
   };
 
@@ -134,7 +134,9 @@ import CartCard from "./pages/bhavini/pages/nestedPages/Card";
           <CartOrderSummary />
           <HStack mt="6" fontWeight="semibold">
             <Text color={"white"}>or</Text>
-            <Link color="#f45f02" _hover={{color:"white"}}>Continue shopping</Link>
+            <Button  onClick={()=>BackToPRoductPage()} fontSize="x-large" padding={8}  color="white" bg="#f45f02" _hover={{color:"#f45f02",bg:"white",border:"1px solid #f45f02"}}> 
+              Continue Shopping
+            </Button>
           </HStack>
         </Flex>
         </Stack>

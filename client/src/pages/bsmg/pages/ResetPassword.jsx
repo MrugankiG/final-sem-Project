@@ -72,9 +72,9 @@ export default function ResetPasswordForm({ handleReset }) {
         <FormControl id="password" isRequired>
           <FormLabel>password</FormLabel>
           <Input
-            placeholder="your-email@example.com"
+            placeholder="password"
             _placeholder={{ color: "gray.500" }}
-            type="email"
+            type="password"
           />
         </FormControl>
         <Heading lineHeight={1.1} fontSize={{ base: "2xl", md: "3xl" }}>

@@ -8,6 +8,7 @@ import {
 export const registerUser = (creds) => async (dispatch) => {
   dispatch({ type: REGISTER_REQUEST });
   try {
+    console.log("signup cred = ",creds);
     let res = await axios.post(
       "http://localhost:8080/user/signup",
       creds

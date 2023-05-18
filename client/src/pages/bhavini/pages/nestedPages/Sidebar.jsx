@@ -113,7 +113,7 @@ function SideBarLeft() {
             }}
           >
             <img
-              src="https://i.im.ge/2022/07/29/FwZXw1.jpg"
+              src="https://media.licdn.com/dms/image/D4D03AQGYf0px6j_L7Q/profile-displayphoto-shrink_800_800/0/1664741436592?e=1689206400&v=beta&t=_MEx1Y3V34LANqjkijHXCoazkzizV4qMD3ioXj2h9Js"
               alt="profile_img"
             />
           </motion.div>

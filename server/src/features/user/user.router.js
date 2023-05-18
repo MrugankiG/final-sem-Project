@@ -14,11 +14,12 @@ const CartModel = require("../cart/cart.model");
 const blackList = [];
 
 const transporter = nodemailer.createTransport({
-  service: "gmail",
+  host: 'smtp.ethereal.email',
+  port: 587,
   auth: {
-    user: process.env.EMAIL,
-    pass: process.env.PASSWORD,
-  },
+      user: 'stephanie.feest84@ethereal.email',
+      pass: 'b4Wf75bHbtMHu4juEv'
+  }
 });
 
 app.get("/", async (req, res) => {
@@ -57,47 +58,48 @@ app.post("/login", async (req, res) => {
     return res.status(403).send("Enter Credianteials");
   }
   const User = await UserModel.findOne({ email });
+  console.log("login = ",User,email)
  // console.log(User)
  // if (!User) return res.status(404).send("User Not Found");
 
   try {
-    const match = bcrypt.compareSync(password, User.password);
-   console.log(match)
-    if (match) {
+   // const match = bcrypt.compareSync(password, User.password);
+   //console.log(match)
+    if (password===User.password) {
       //login
-      const token = jwt.sign(
-        {
-          _id: User.id,
-          name: User.username,
-          role: User.role,
-          email:User.email,
-          password: User.password,
-        },
-        SECRET_TOKEN,
-        {
-          expiresIn: "7 days",
-        }
-      );
-      const refresh_token = jwt.sign(
-        {
-          _id: User.id,
-          name: User.username,
-          role: User.role,
-          email:User.email,
-          password: User.password,
-        },
-        SECRET_REFRESH_TOKEN,
-        {
-          expiresIn: "28 days",
-        }
-      );
+      // const token = jwt.sign(
+      //   {
+      //     _id: User.id,
+      //     name: User.username,
+      //     role: User.role,
+      //     email:User.email,
+      //     password: User.password,
+      //   },
+      //   SECRET_TOKEN,
+      //   {
+      //     expiresIn: "7 days",
+      //   }
+      // );
+      // const refresh_token = jwt.sign(
+      //   {
+      //     _id: User.id,
+      //     name: User.username,
+      //     role: User.role,
+      //     email:User.email,
+      //     password: User.password,
+      //   },
+      //   SECRET_REFRESH_TOKEN,
+      //   {
+      //     expiresIn: "28 days",
+      //   }
+      // );
       const mailOptions = {
         from: process.env.EMAIL,
         to: email,
         subject: `Login Successfull`,
         html: `<h1>your ACcount Login Successfull  </h1>`,
       };
-
+          
       transporter.sendMail(mailOptions, (err, info) => {
         if (err) {
           console.log("ERROR", err);
@@ -108,11 +110,12 @@ app.post("/login", async (req, res) => {
       });
       return res
         .status(200)
-        .send({ message: "Login success", token, refresh_token, email });
+        .send({ message: "Login success",email });
     } else {
       return res.status(401).send({ message: "Authentication Failed" });
     }
-  } catch {
+  } catch (error) {
+    console.log("error = ",error);
     return res.status(401).send({ message: "Authentication Failed" });
   }
 });
@@ -145,15 +148,15 @@ app.post("/signup", async (req, res) => {
         .status(403)
         .send({ message: "User Already Created Try Logging in" });
 
-    bcrypt.hash(password, 6, async function (err, hash) {
-      if (err) {
-        return res.status(403).send({ message: "Connection has failed" });
-      }
+    // bcrypt.hash(password, 6, async function (err, hash) {
+    //   if (err) {
+    //     return res.status(403).send({ message: "Connection has failed" });
+    //   }
 
       const user = await UserModel({
         email,
         username,
-        password: hash,
+        password,
         weight,
         height,
         age,
@@ -169,7 +172,7 @@ app.post("/signup", async (req, res) => {
       
     
       const mailOptions = {
-        from: process.env.EMAIL,
+        from: "bhsssinghbhupendra@gmail.com",
         to: email,
         subject: `Sign Up Successfull`,
         html: `<h1>${username} Account Sign Up Successfull  </h1>`,
@@ -183,7 +186,7 @@ app.post("/signup", async (req, res) => {
           return res.status(201).send(`user created successfully,${username}`);
         }
       });
-    });
+   // });
   } catch (er) {
     return res.status(404).send(er.message);
   }
@@ -200,7 +203,7 @@ app.post("/reset-password/getOtp", async (req, res) => {
   }
 
   const user = await UserModel.findOne({ email });
-
+  console.log("user = ",user);
   if (!user) {
     return res.status(403).send("Account with this email Not Found");
   }
@@ -208,8 +211,9 @@ app.post("/reset-password/getOtp", async (req, res) => {
   try {
     MYOTP = Math.floor(100000 + Math.random() * 900000);
     MYOTP = MYOTP.toString();
+    console.log('MYOTP = ',MYOTP);
     const mailOptions = {
-      from: process.env.EMAIL,
+      from: "bhupendrasingh.bh2001@gmail.com",
       to: email,
       subject: `RESET PASSWORD`,
       html: `<h1>OTP is ${MYOTP}</h1>`,
@@ -217,7 +221,7 @@ app.post("/reset-password/getOtp", async (req, res) => {
 
     transporter.sendMail(mailOptions, (err, info) => {
       if (err) {
-        console.log("ERROR", err);
+        console.log("ERROR while sending mail = ", err);
       } else {
         console.log("EMAIL SEND" + info.response);
         return res.status(200).send(`OTP SENDED SUCCESSFULLY`);
@@ -257,18 +261,19 @@ app.post("/reset-password/reset", async (req, res) => {
   }
 
   try {
-    const hash = bcrypt.hashSync(password, 10);
+    //const hash = bcrypt.hashSync(password, 10);
     // await user.save()
     //console.log(hash);
     const data = await UserModel.findOneAndUpdate(
       { email },
-      { password: hash },
+      { password},
       { new: true }
     );
     flag = false;
-
+   
+    console.log("ye sb sahi h!")
     const mailOptions = {
-      from: process.env.EMAIL,
+      from: "bhsssinghbhupendra@gmail.com",
       to: email,
       subject: `Password Updated Successfully`,
       html: `<h1>Your Passwrod Updated Successfully</h1>`,
@@ -278,6 +283,7 @@ app.post("/reset-password/reset", async (req, res) => {
       if (err) {
         console.log("ERROR", err);
       } else {
+        console.log("in sendMail........./reset-password/reset")
         console.log("EMAIL SEND" + info.response);
         return res.status(200).send(`Users Password Updated Successfully `);
       }

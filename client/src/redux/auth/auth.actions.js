@@ -15,9 +15,10 @@ FORGET_SUCCESS_,
 export const login = (creds) => async (dispatch) => {
   dispatch({ type: LOGIN_REQUEST });
   try {
+    console.log('creds = ',creds);
     let res = await axios.post("http://localhost:8080/user/login", creds);
     dispatch({ type: LOGIN_SUCCESS, payload: res.data });
-    //console.log(res.data)
+    console.log("final data = ",res,res.data);
     return res.data;
   } catch (error) {
     dispatch({ type: LOGIN_ERROR, payload: error.message });
@@ -29,6 +30,7 @@ export const ForegetPassword = (email) => async (dispatch) => {
   dispatch({ type: FORGET_REQUEST_ });
   
   try {
+    console.log('in ForegetPassword redux ',email);
     let res = await axios.post("http://localhost:8080/user/reset-password/getOtp", {email: email});
     dispatch({ type: FORGET_SUCCESS_, payload: res.data });
     

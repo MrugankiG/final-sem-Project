@@ -1,5 +1,6 @@
 // import wave from "../assets/wave.png";
 import banner from "../Assets/img1.png";
+//import product from "../Assets/product.json"
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import {
@@ -33,7 +34,7 @@ import { ACTION_ADD_PRODUCT, ACTION_DELETE_PRODUCT } from "../../../redux/admin/
 const ProductPage = () => {
   const dispatch = useDispatch();
   const product = useSelector((store) => store.product);
-
+  console.log('product1',product);
   const toast = useToast()
 
   const { userData, isAuth, AdminIsAuth } = useSelector((store) => store.auth);

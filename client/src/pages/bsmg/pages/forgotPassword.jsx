@@ -18,7 +18,7 @@ export default function ForgotPasswordForm( {handleOtp} ) {
   const toast = useToast()
 
   const [email, setEmail] = useState("");
-  console.log(email);
+  console.log('forgot email',email);
   const dispatch = useDispatch()
 
   const forgetKaro = ()=>{

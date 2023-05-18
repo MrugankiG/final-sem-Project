@@ -18,6 +18,7 @@ import AllUsers from "../pages/bhavini/pages/nestedPages/AllUsers";
 import Dashborad from "../pages/bhavini/pages/nestedPages/Dashborad";
 import AdminPrivateAuth from "./AdminPrivateRoute";
 import PrivateRoute from "./PrivateRoute";
+import PaymentGateway from "../pages/bss/pages/PaymentGateway";
 
 
 const AllRoutes = () => {
@@ -36,7 +37,7 @@ const AllRoutes = () => {
 
           <Route path="/products" element={<ProductPage />} />
           <Route path="/products/:id" element={<SingleProductPage />} />
-
+          <Route path="/paymentsgateway" element={<PaymentGateway />} />
           <Route
           path="/checkout/payment"
           element={
