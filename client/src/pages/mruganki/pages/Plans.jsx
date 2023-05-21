@@ -31,7 +31,7 @@ const Plans = () => {
     {
       name: "BLUEPRINT TO SIZE",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-blueprint-to-size.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"Get ready to sweat and challenge your body with our invigorating workouts. Our expert-designed sessions combine cardiovascular exercises, strength training, and flexibility exercises to help you achieve your fitness goals. Whether you're a beginner or a seasoned athlete, our workouts cater to all levels of fitness. ",
       type:"Transform",
       gender: "Female, Male",
       duration:"4 weeks",
@@ -40,7 +40,7 @@ const Plans = () => {
     {
       name: "3 WEEKS 2 SIZE",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-3weeks2size.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"During this intense three-week program, you'll engage in focused strength training exercises, progressive overload techniques, and targeted muscle-building workouts. We'll guide you through a variety of compound movements, isolation exercises, and intensity techniques to maximize muscle growth and sculpt your desired physique.",
       type:"Build Muscle",
       gender: "Female, Male",
       duration:"3 weeks",
@@ -49,7 +49,7 @@ const Plans = () => {
     {
       name: "SHORTCUT TO SHRED",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-shortcuttoshred.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"Join our community of dedicated individuals who are on their own transformation journey. Connect with others, share experiences, and find the support and motivation you need to stay focused and committed. Together, we'll celebrate milestones and achieve greatness.",
       type:"Transform",
       gender: "Female, Male",
       duration:"3 weeks",
@@ -58,7 +58,7 @@ const Plans = () => {
     {
       name: "ULTIMATE 30-DAY FITNESS",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-ultimate-30day-fitness.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"Are you ready to transform your life in just 30 days? Join us now and embark on a thrilling journey towards a stronger, fitter, and more confident you. Don't wait another day to take the first step. Let's embrace the challenge and redefine what you're capable of achieving.",
       type:"Build Muscle",
       gender: "Female, Male",
       duration:"3 weeks",
@@ -67,7 +67,7 @@ const Plans = () => {
     {
       name: "IRON EVERY DAY",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-ironeveryday.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"Unlock the Power of Iron: Embrace the Strength of an Iron Body. Welcome to our Iron Body program, where we celebrate the incredible strength, resilience, and determination that comes with forging an iron physique.",
       type:"Build Muscle",
       gender: "Male",
       duration:"4 weeks",
@@ -76,7 +76,7 @@ const Plans = () => {
     {
       name: "STRONGER THAN YESTERDAY",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-stronger-than-yesterday-2.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"Are you ready to take control of your health and lose fat? Start your journey with us today and discover the transformative power of a balanced lifestyle. Let's work together to create lasting changes that will empower you to live a healthier, happier life.",
       type:"Lose Fat ",
       gender: "Male",
       duration:"5 weeks",
@@ -85,7 +85,7 @@ const Plans = () => {
     {
       name: "POWER BODYBUILDING",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-power-bodybuilding.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"Welcome to our Power Building Program! Are you ready to unleash your strength, build muscle mass, and develop the raw power you've always desired? Our Power Building Program is designed to take your fitness journey to the next level by combining strength training and muscle-building techniques.",
       type:"Build Muscle",
       gender: "Female, Male",
       duration:"3 weeks",
@@ -94,7 +94,7 @@ const Plans = () => {
     {
       name: "START HERE YOUR NEW YEAR",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-start-here-your-new-year.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"Embrace a New Beginning: Make Your New Year Resolutions Count. Welcome to a new year, a fresh chapter in your life filled with endless possibilities. It's time to reflect on the past, set new goals, and make resolutions that will shape your future. Our program is designed to help you embrace this new beginning, stay committed to your resolutions, and turn them into meaningful and lasting changes.",
       type:"Lose Fat",
       gender: "Female",
       duration:"1 weeks",
@@ -103,17 +103,17 @@ const Plans = () => {
     {
       name: "LEAN BODY",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-leanbody.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
+      desc:"A lean body represents the perfect balance of strength, agility, and aesthetics. It is a reflection of dedication, discipline, and a commitment to a healthy lifestyle. Our program focuses on sustainable approaches to nutrition, effective workouts, and mindset shifts that will empower you to transform your body.",
       type:"Lose Fat",
       gender: "Female",
       duration:"4 weeks",
      
     },
     {
-      name: "IRON EVERY DAY",
+      name: "GLOW UP",
       image: "https://themes.oitentaecinco.com/winner/wp-content/uploads/2017/12/workoutplan-thumbnail-ironeveryday.jpg",
-      desc:"Lorem ipsum porttitor posuere. Praesent id metus massa, ut blrandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim ex ea commodo consequat.",
-      type:"Build Muscle",
+      desc:"A glow up is more than just a physical makeover—it's a holistic journey of self-discovery, self-love, and self-improvement. It's about embracing your unique beauty, nurturing your body and mind, and radiating confidence from within.",
+      type:"Fit Body",
       gender: "Male",
       duration:"4 weeks",
      

@@ -11,14 +11,14 @@ const SinglePlanPage = () => {
     {
       name: "DAILY WORKOUTS",
       logo:FaRocket,
-      desc:"Excepteur pit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      desc:"Welcome to our Daily Workout Hub! Get ready to elevate your fitness and achieve your goals with our carefully curated daily workout routines. Our expert trainers have designed these workouts to be challenging, effective, and enjoyable.",
       type:"8-Week Training Plan",
       button: "GET STARTED",
     },
     {
       name: "NUTRITION PLAN",
       logo:FaNutritionix,
-      desc:"Excepteur pit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      desc:"Welcome to our Nutrition Plan Headquarters! Discover the power of nourishing your body with our comprehensive and personalized nutrition plans. We believe that a balanced diet is the foundation of a healthy lifestyle, and we're here to guide you on your journey towards optimal nutrition.",
       type:"Properly fuel your Body",
       
       button: "GET STARTED",
@@ -26,7 +26,7 @@ const SinglePlanPage = () => {
     {
       name: "SUPPLEMENT GUIDE",
       logo:FaCoffee,
-      desc:"Excepteur pit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      desc:"Our Supplement Guide is your go-to resource for unbiased and evidence-based information on a wide range of supplements. We understand that navigating the supplement market can be overwhelming, which is why we have curated a collection of reliable and trusted information to help you make informed decisions.",
       type:"Increase your Results",
       
       button: "GET STARTED",
