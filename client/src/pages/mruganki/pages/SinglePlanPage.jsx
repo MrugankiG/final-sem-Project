@@ -42,8 +42,7 @@ const SinglePlanPage = () => {
     <VStack spacing={"8"}>
     <Heading color={"white"}>{plan}</Heading>
     <Heading fontSize={"22.75"} color={"white"}>WORKOUT SCHEDULE</Heading>
-    <chakra.P width="80%" color={"white"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</chakra.P>
+    <chakra.P width="80%" color={"white"}> Welcome to our comprehensive workout schedule guide! Whether you're a beginner starting your fitness journey or a seasoned fitness enthusiast looking to optimize your workouts, having a well-designed workout schedule is crucial for achieving your goals. In this guide, we'll walk you through the key elements of creating an effective workout schedule that suits your needs and maximizes your results.</chakra.P>
    
     <Link to={`/plans/${plan}/${"workout"}`}><Image src={workout}></Image></Link>
     <Heading  fontSize={"22.75"} color={"white"}>THIS WORKOUT PLAN INCLUDES</Heading>

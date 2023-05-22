@@ -14,28 +14,30 @@ const Choose  = () => {
                     <SiEquinixmetal fontSize={"45px"}   />
                  </Box>
                  <Heading fontSize={"23"} mt="10" color="#fff" textAlign={"center"}>Modern Equipment</Heading>
-                 <Text textAlign={"center"} color="#363538" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</Text>
+                 <Text textAlign={"center"} color="#363538" >
+Introducing our premier gym facility equipped with the best modern equipment, designed to elevate your fitness experience and help you achieve your goals.</Text>
             </VStack >
             <VStack  spacing={2} className="two" >
                  <Box mb="10" borderRadius={"50%"} color="#f45f02"  backgroundColor="#2c2b2e" p="5" className="two_2">
                     <GiFruitBowl fontSize={"45px"} />
                  </Box>
                  <Heading fontSize={"23"} mt="10" color="#fff" textAlign={"center"}>Healthy Nutrition Plan</Heading>
-                 <Text  textAlign={"center"} color="#363538" fontFamily={"Muli, sans-serif"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</Text>
+                 <Text  textAlign={"center"} color="#363538" fontFamily={"Muli, sans-serif"}>Introducing our exceptional healthy nutrition plan, designed to provide you with the best guidance and support for achieving your health and wellness goals.</Text>
             </VStack>
             <VStack  spacing={2} className="three" >
                  <Box mb="10" borderRadius={"50%"} color="#f45f02" backgroundColor="#2c2b2e" p="5" className="three_3">
                     <FaDumbbell fontSize={"45px"}   />
                  </Box>
                  <Heading fontSize={"23"} mt="10" color="#fff" textAlign={"center"}>Best Training Plan</Heading>
-                 <Text textAlign={"center"}  color="#363538" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</Text>
+                 <Text textAlign={"center"}  color="#363538" >
+Introducing our premier planning services, designed to provide you with the best solutions for effective organization, productivity, and goal achievement.</Text>
             </VStack>
             <VStack  spacing={2} className="four" >
                  <Box borderRadius={"50%"} mb="10"  color="#f45f02" backgroundColor="#2c2b2e" p="5" className="four_4" >
                     <FaHeartbeat fontSize={"45px"}  />
                  </Box>
                  <Heading fontSize={"23"} mt="10" color="#fff" textAlign={"center"}>Unique to your needs</Heading>
-                 <Text textAlign={"center"}  color="#363538" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</Text>
+                 <Text textAlign={"center"}  color="#363538" >Introducing our exceptional services tailored to your unique needs. We understand that every individual is different, and we are dedicated to providing personalized solutions that address your specific requirements.</Text>
             </VStack>
         </SimpleGrid>
       

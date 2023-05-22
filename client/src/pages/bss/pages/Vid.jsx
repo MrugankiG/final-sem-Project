@@ -66,7 +66,7 @@ const Vid = () => {
           }}
           z-index={2}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+           ipsum dolor sit amet consectetur adipisicing elit. Maxime
           mollitia, molestiae quas vel sint commodi repudiandae consequuntur
           voluptatum laborum numquam blanditiis harum quisquam eius sed odit
         </chakra.p>

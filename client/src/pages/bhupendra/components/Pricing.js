@@ -72,7 +72,7 @@ const Pricing = () => {
                   textShadow="2px 0 currentcolor"
                   color={"#f45f02"}
                 >
-                  $0
+                  Rs 0/-
                 </chakra.span>
                 <chakra.span
                   alignSelf="center"
@@ -139,7 +139,7 @@ const Pricing = () => {
                   textShadow="2px 0 currentcolor"
                   color={"#f45f02"}
                 >
-                  RS149
+                  RS 2000/-
                 </chakra.span>
                 <chakra.span
                   alignSelf="center"
@@ -207,7 +207,7 @@ const Pricing = () => {
                   textShadow="2px 0 currentcolor"
                   color={"#f45f02"}
                 >
-                  $5.25
+                  Rs 17,499/-
                 </chakra.span>
                 <chakra.span
                   alignSelf="center"
